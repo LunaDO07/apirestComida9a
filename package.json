@@ -4,14 +4,15 @@
   "description": "api dedicada a hacer comida",
   "main": "app.js",
   "scripts": {
-  "dev": "nodemon app.js", 
-  "star": "node app.js"
+    "dev": "nodemon app.js",
+    "star": "node app.js"
   },
   "author": "Litzy Evelyn Diaz Ortiz",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "mongoose": "^8.4.1"
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.3"
